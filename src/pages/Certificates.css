@@ -47,7 +47,30 @@
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
   transition: border-color 0.25s ease, box-shadow 0.25s ease,
-    transform 0.25s ease;
+    transform 0.25s ease, opacity 0.25s ease;
+  animation: card-fade-in 0.4s ease both;
+}
+
+.certificates__grid .certificates__card:nth-child(1) { animation-delay: 0.05s; }
+.certificates__grid .certificates__card:nth-child(2) { animation-delay: 0.1s; }
+.certificates__grid .certificates__card:nth-child(3) { animation-delay: 0.15s; }
+.certificates__grid .certificates__card:nth-child(4) { animation-delay: 0.2s; }
+.certificates__grid .certificates__card:nth-child(5) { animation-delay: 0.25s; }
+.certificates__grid .certificates__card:nth-child(6) { animation-delay: 0.3s; }
+.certificates__grid .certificates__card:nth-child(7) { animation-delay: 0.35s; }
+.certificates__grid .certificates__card:nth-child(8) { animation-delay: 0.4s; }
+.certificates__grid .certificates__card:nth-child(9) { animation-delay: 0.45s; }
+.certificates__grid .certificates__card:nth-child(10) { animation-delay: 0.5s; }
+
+@keyframes card-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .certificates__card:hover {
@@ -126,8 +149,16 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: rgba(8, 10, 15, 0.82);
-  backdrop-filter: blur(6px);
+  background: rgba(8, 10, 15, 0);
+  backdrop-filter: blur(0px);
+  animation: modal-bg-in 0.3s ease forwards;
+}
+
+@keyframes modal-bg-in {
+  to {
+    background: rgba(8, 10, 15, 0.82);
+    backdrop-filter: blur(6px);
+  }
 }
 
 .certificates__modal-content {
@@ -143,7 +174,7 @@
 @keyframes certificates-zoom-in {
   from {
     opacity: 0;
-    transform: scale(0.96);
+    transform: scale(0.95);
   }
   to {
     opacity: 1;

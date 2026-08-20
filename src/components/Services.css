@@ -1,5 +1,15 @@
 .services {
   background: var(--bg-muted);
+  animation: section-fade-in 0.5s ease 0.2s both;
+}
+
+@keyframes section-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .services__inner {
