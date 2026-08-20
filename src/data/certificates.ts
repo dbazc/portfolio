@@ -17,25 +17,11 @@ export const certificates: Certificate[] = [
     image: `${base}/Sena/Administración de RRHH/Certificado.webp`,
   },
   {
-    id: "sena-rrhh-nota",
-    title: "Administración de RRHH — Nota Especial",
-    issuer: "SENA",
-    year: "2018",
-    image: `${base}/Sena/Administración de RRHH/Nota Especial.webp`,
-  },
-  {
     id: "sena-documental",
     title: "Administración Documental en el Entorno Laboral",
     issuer: "SENA",
     year: "2018",
     image: `${base}/Sena/Administración Documental en el Entorno Laboral/Certificado.webp`,
-  },
-  {
-    id: "sena-documental-nota",
-    title: "Administración Documental — Nota Especial",
-    issuer: "SENA",
-    year: "2018",
-    image: `${base}/Sena/Administración Documental en el Entorno Laboral/Nota Especial.webp`,
   },
   {
     id: "sena-cuentas",
@@ -45,13 +31,6 @@ export const certificates: Certificate[] = [
     image: `${base}/Sena/Cuentas Contables/Certificado.webp`,
   },
   {
-    id: "sena-cuentas-nota",
-    title: "Cuentas Contables — Nota Especial",
-    issuer: "SENA",
-    year: "2018",
-    image: `${base}/Sena/Cuentas Contables/Nota Especial.webp`,
-  },
-  {
     id: "sena-english-1",
     title: "English Dot Works",
     issuer: "SENA",
@@ -59,25 +38,11 @@ export const certificates: Certificate[] = [
     image: `${base}/Sena/Enlgish Dot Works/Certificado.webp`,
   },
   {
-    id: "sena-english-1-nota",
-    title: "English Dot Works — Nota Especial",
-    issuer: "SENA",
-    year: "2018",
-    image: `${base}/Sena/Enlgish Dot Works/Nota Especial.webp`,
-  },
-  {
     id: "sena-english-2",
     title: "English Dot Works 2",
     issuer: "SENA",
     year: "2020",
     image: `${base}/Sena/Enlgish Dot Works 2/Certificado.webp`,
-  },
-  {
-    id: "sena-english-2-nota",
-    title: "English Dot Works 2 — Nota Especial",
-    issuer: "SENA",
-    year: "2020",
-    image: `${base}/Sena/Enlgish Dot Works 2/Nota Especial.webp`,
   },
   {
     id: "capacitate-finder",
